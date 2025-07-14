@@ -1,0 +1,45 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+body {
+   background-color: #f4f4f4;
+   padding: 20px;
+}
+.container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;  /* ✅ FIXED */
+   justify-content: space-between;
+   align-items: stretch;
+   gap: 20px;
+}
+
+.card {
+   background-color: white;
+   border-radius: 10px;
+   padding: 20px;
+   flex: 1 1 250px; /* grow, shrink, basis */
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card:nth-child(2) {
+   align-self: flex-start; /* Different alignment for demo */
+}
+
+.card h2 {
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+
+.card p {
+   color: #555;
+}
+
+@media (max-width: 768px) {
+  .card:last-child {
+    flex-basis: 100%;
+  }
+}

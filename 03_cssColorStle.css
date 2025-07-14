@@ -1,0 +1,48 @@
+/* Body ke liye background image + position + repeat + size */
+body {
+  background-image: url("kali.png");   /* image ka naam apne folder ka de */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: beige;
+}
+
+/* Container box ke liye background-color */
+.container {
+  background-color: rgba(255, 255, 255, 0.8);  /* thoda transparent white */
+  padding: 40px;
+  margin: 100px auto;
+  width: 60%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Text ka color */
+h1, h2, h3, h4 {
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  background-color: blue;
+  font-size: 18px;
+  color: rgb(194, 10, 47);
+}
+ol li {
+  color: blue;
+  font-style: italic;
+  background-color: blueviolet;
+}
+ul li{
+   color: brown;
+   font-style: italic;
+   background-color: chocolate;
+}
+dl{
+   color: rgb(138, 30, 30);
+   font-style: normal;
+   background-color: rgb(134, 155, 155);
+}
+dt{
+   color: rgb(4, 0, 255);
+}

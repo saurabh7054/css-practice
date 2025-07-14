@@ -1,0 +1,35 @@
+
+/* Card style */
+.card {
+  width: 80%;         /* percentage based width */
+  max-width: 400px;
+  padding: 2rem;       /* rem unit (based on html font-size) */
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+/* Heading with px */
+.card h1 {
+  font-size: 24px;     /* absolute unit */
+  margin-bottom: 1em;  /* relative to its own font-size */
+}
+
+/* Paragraph with em */
+.card p {
+  font-size: 1em;      /* relative to parent (h1) */
+  margin-bottom: 2em;
+  font-style: italic;
+}
+
+/* Button with auto, px, em */
+.card button {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  margin: auto;          /* auto centers inside flex (if needed) */
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

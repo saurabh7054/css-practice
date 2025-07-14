@@ -1,0 +1,36 @@
+img{
+   margin: 10px;
+}
+body {
+  background-color: black;
+  color: white; /* Text white kar diya taki dikhai de */
+  font-family: Arial, sans-serif;
+}
+div{
+   border: 1px solid red;
+}
+.img2{
+   /* position: relative;
+   top: 100px;
+   left: 100px; */
+
+   /* position: absolute;*/
+   top: 100px; 
+}
+.container{
+   position: relative;
+   height: 8000px;
+   /* background-color: beige; */
+}
+.img3{
+   position: fixed;
+   
+}
+.img2{
+   position: sticky;
+   top: 100px;
+}
+.box{
+   height: 5000px;
+   background-color: aqua;
+}

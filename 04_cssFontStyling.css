@@ -1,0 +1,67 @@
+/* Body font from Google Fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styling */
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: #2c3e50;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  color: #4a8cd8;
+  text-align: justify;
+}
+
+/* Link styling */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2980b9;
+}
+table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #da89b1; /* Table background */
+  border-radius: 20px;
+}
+
+th {
+  background-color: #4CAF50; /* Green header */
+  color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #333;
+}
